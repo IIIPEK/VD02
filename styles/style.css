@@ -1,0 +1,128 @@
+.body {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+background: beige;
+}
+
+
+.container {
+display: flex;
+flex-flow: column;
+align-items: center;
+width: 50%;
+overflow: auto;
+background: beige
+border: 1px solid white;
+padding: 20px 0;
+}
+
+.header {
+display: flex;
+justify-content: center;
+align-items: flex-start;
+width: 100%;
+height: 20%;
+}
+
+.header:hover {
+cursor: pointer;
+transform: scale(0.95);
+transition: 1s;
+}
+
+.main {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 95%;
+min-height: 400px;
+margin-bottom: 20px;
+}
+
+
+
+.footer {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 90%;
+min-height: 20%;
+height: auto;
+padding: 20px;
+}
+
+.footer:hover {
+cursor: pointer;
+transform: scale(0.95);
+transition: 1s;
+}
+
+.footer h1 {
+margin-bottom: 15px;
+text-align: center;
+}
+
+.footer p {
+margin: 5px 0;
+text-align: center;
+}
+
+.left {
+align-items: center;
+width: 50%;
+height: 90%;
+padding: 20px;
+background-color: beige;}
+
+.left:hover {
+cursor: pointer;
+transform: scale(0.95);
+background-color: snow;
+transition: 1s;
+box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+h1::first-letter {
+font-size: 50px;}
+
+.right {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 50%;
+height: 90%;
+padding: 20px;
+background-color: darkseagreen;
+border-radius: 5px;}
+
+.right:hover {
+cursor: pointer;
+background-color: olivedrab;
+transition: 1s;
+}
+
+.image:hover {
+cursor: pointer;
+transform: scale(1.1);
+transition: 1s;
+box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.image {
+max-width: 95%;
+width: auto;
+height: 95%;
+border-radius: 20px;
+}
+
+.left td {
+vertical-align: top;
+padding: 5px;
+}
+
+td:nth-child(1) {
+  font-weight: bold; /* Полужирное начертание */
+}
